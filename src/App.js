@@ -7,13 +7,13 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <Router exact path="/">
+    
         <Switch>
           <Route path="/welcome">
-            <Welcome />
+             <Welcome />
           </Route>
-          <Route path="/login">
+          <Route exact path={["/","/login"]} >
             <Login />
           </Route>
           <Route path="/registration">
@@ -21,7 +21,7 @@ function App() {
           </Route>
           {/* <Route path="/welcome"><Welcome /></Route> */}
         </Switch>
-      </div>
+     
     </Router>
   );
 }

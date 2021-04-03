@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
-import RegistrationWithInput from "../reusable/registrationWithInputField";
+import InputField from "../reusable/inputField";
 import { registrationDetail } from "../../redux/action";
 import { Link, useHistory } from "react-router-dom";
 
@@ -74,7 +74,7 @@ const Registration = ({
   return (
     <div className="registration-container-wrapper">
       <label className="registration-lable">Registration Form</label>
-      <RegistrationWithInput
+      <InputField
         onInputChange={onInputChange}
         inputProps={registrationForm}
         userInput={registrationDetail}

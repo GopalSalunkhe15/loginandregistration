@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
-const RegistrationWithInput = ({
+const InputField = ({
   inputProps,
   userInput,
   onInputChange,
@@ -82,4 +82,4 @@ const RegistrationWithInput = ({
   );
 };
 
-export default RegistrationWithInput;
+export default InputField;

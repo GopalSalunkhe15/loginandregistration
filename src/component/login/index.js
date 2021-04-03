@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RegistrationWithInput from "../reusable/registrationWithInputField";
+import InputField from "../reusable/inputField";
 import "./index.css";
 import { connect } from "react-redux";
 import {
@@ -60,7 +60,7 @@ const Login = ({ subscribedUser, loginForm, ...props }) => {
   return (
     <div className = "login-container-wrapper">
       <label className="login-header">User Login</label>
-      <RegistrationWithInput
+      <InputField
         goToWelcomePage={goToWelcomePage}
         onInputChange={onInputChange}
         inputProps={loginForm}

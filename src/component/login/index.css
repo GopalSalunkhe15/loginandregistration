@@ -1,0 +1,21 @@
+.login-button-container{
+    margin-top: 20px;
+    padding: 0px 139px;
+}
+.link-wrapper{
+    margin-left:46px
+} 
+.login-header{
+    position: relative;
+    left: 165px;
+    bottom: 13px;
+    
+}
+.login-container-wrapper {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #cccccc;
+    padding: 10px;
+    padding: 34px;
+    background: #ebebeb;
+  }

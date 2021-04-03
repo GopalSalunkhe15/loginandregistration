@@ -1,0 +1,21 @@
+.home-page-container{
+    background-image: url("../../image/homePage.jpg");
+    background-repeat: round;
+    height: 285px;
+    height: -webkit-fill-available;
+
+}
+
+.home-page-wrapper{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 134px;
+}
+
+.paragraphText{
+    margin: 78px;
+    position: relative;
+    top: 132px;
+
+}
